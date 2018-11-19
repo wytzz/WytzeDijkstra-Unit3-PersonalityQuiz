@@ -289,9 +289,6 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="HAS-xI-DFD" firstAttribute="top" secondItem="baK-wj-zfW" secondAttribute="bottom" constant="30" id="kTe-kL-h2J"/>
-                                </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Ir-Et-hxL">
                                 <rect key="frame" x="113" y="84" width="149" height="210"/>

@@ -24,9 +24,9 @@ class ResultsViewController: UIViewController {
             frequencyOfAnswers[response] = (frequencyOfAnswers[response] ?? 0) + 1
         }
         let mostCommonAnswer = frequencyOfAnswers.sorted { $0.1 > $1.1 }.first!.key
-        resultAnswerLabel.text = "You are \(mostCommonAnswer.rawValue)!"
-        resultDefinitionLabel.text = mostCommonAnswer.definition
-        self.resultImage.image = UIImage(named: "\(mostCommonAnswer.rawValue)")
+        resultAnswerLabel.text = "You are \(mostCommonAnswer.rawValue)!" // shows which superhero you are
+        resultDefinitionLabel.text = mostCommonAnswer.definition // shows the definition of the superhero with the most answers
+        self.resultImage.image = UIImage(named: "\(mostCommonAnswer.rawValue)") //shows the image of the superhero with the most answers
     }
     override func viewDidLoad() {
         super.viewDidLoad()

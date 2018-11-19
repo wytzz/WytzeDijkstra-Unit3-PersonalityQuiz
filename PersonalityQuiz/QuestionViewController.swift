@@ -82,7 +82,7 @@ class QuestionViewController: UIViewController {
                     Answer(text: "A shield", type: .captainamerica)
             ])
         
-        ]
+        ] // All the Questions of the test with the answers
     
     
     @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
